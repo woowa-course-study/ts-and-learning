@@ -8,4 +8,6 @@ declare module "str-utils" {
   export const strInvertCase: StrUtil;
   export const strRandomize: StrUtil;
   export const strInvertCase: StrUtil;
+  export const strReverse: StrUtil;
+  export const strToLower: StrUtil;
 }
