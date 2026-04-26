@@ -1,4 +1,11 @@
-declare module 'str-utils' {
-    // export const ...
-    // export function ...
+declare module "str-utils" {
+  // export const ...
+  // export function ...
+  type StrUtil = (input: string) => string;
+
+  export const strToUpper: StrUtil;
+  export const strRandomize: StrUtil;
+  export const strInvertCase: StrUtil;
+  export const strRandomize: StrUtil;
+  export const strInvertCase: StrUtil;
 }
